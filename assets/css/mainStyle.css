@@ -1,0 +1,465 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+nav.navbar {
+    position: fixed;
+    background-color: transparent;
+    width: 100%;
+    z-index: 999;
+}
+
+img.mainLogo {
+    width: 100%;
+    max-width: 140px;
+}
+
+.headerBtn {
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.headerBtn li a {
+    text-decoration: none;
+}
+
+.headerBtn li a {
+    text-decoration: none;
+    margin: auto 10px;
+    color: #000;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
+a.logIn {
+    background: transparent;
+    border: 1px solid #000;
+    transition: 1s;
+}
+
+a.logIn:hover {
+    background: #000;
+    border: 1px solid transparent;
+    color: #fff !important;
+}
+
+a.getAlpine {
+    background: #000;
+    border: 1px solid #000;
+    color: #fff !important;
+    transition: 1s;
+}
+
+a.getAlpine:hover {
+    background: transparent;
+    border: 1px solid #000;
+    color: #000 !important;
+}
+
+.navbar-nav li a {
+    margin: auto 15px;
+    font-weight: 600;
+    color: #000 !important;
+}
+
+.mainBannerContent {
+    margin-top: 60px;
+}
+
+.section01 {
+    background: url('../images/homepage/mainBanner.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 20px 40px;
+}
+
+.purchaseAlpine {
+    background: #B6DDFF;
+    padding: 10px 15px;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 10px;
+    font-weight: 500;
+    text-decoration: none;
+    margin: 10px auto;
+    display: block;
+    width: 100%;
+    box-shadow: 1rem .5rem 2rem rgba(182, 221, 255, 0.6)!important;
+}
+
+a.purchaseAlpine img {
+    width: 100%;
+    max-width: 14px;
+    margin: auto;
+}
+
+.fontChnage {
+    font-family: 'Ayer-Regular';
+    font-style: italic;
+    font-weight: 500;
+}
+
+.section02 {
+    background: #000;
+    position: relative;
+    padding: 50px 40px;
+}
+
+.icon {
+    background: #B6DCFF;
+    border-radius: 10px;
+    padding: 10px 7px;
+    margin-bottom: 10px;
+}
+
+.icon img {
+    width: 100%;
+    max-width: 14px;
+    margin: auto;
+    display: block;
+}
+
+.card.featureCard {
+    border: 1px solid #fff;
+    background: transparent;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 30px auto;
+    height: 100%;
+    margin: auto;
+}
+
+.section04 {
+    background: url('../images/homepage/section04Baground.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 50px 0px;
+}
+
+#numberWang {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    font-size: 6em;
+    color: #fff;
+}
+
+.animatecss {
+    position: fixed;
+    bottom: 0%;
+    left: 2%;
+    font-size: 1.4em;
+}
+
+.accordion-item {
+    border: 1px solid rgba(0, 0, 0);
+}
+
+footer {
+    background: #000;
+    padding: 10px;
+    padding-top: 25px;
+    color: #fff;
+    bottom: 0;
+}
+
+.footer {
+    position: absolute;
+    width: 100%;
+    background: #000;
+    padding: 10px;
+    padding-top: 25px;
+    color: #fff;
+    bottom: 0;
+}
+
+.footerLink {
+    color: #fff;
+    text-decoration: none;
+}
+
+.scrolled {
+    background-color: rgba(255, 255, 255, 0.7) !important;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(10px);
+    transition: 1s;
+}
+
+.logInPage {
+    background: url('../images/loginpage/mainBackgroundImg.png');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 50px 0px;
+    height: 100vh;
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.form {
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.licenseCard {
+    background: #B6DDFF;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.clipBoard {
+    background: transparent;
+    border: 2px dashed #000;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.clipBoard input {
+    background: transparent;
+    padding: 5px 10px;
+    border: none;
+    width: 90%;
+}
+
+.licenseCard button {
+    background: transparent;
+    border: none;
+    margin: auto;
+}
+
+.licenseCard img {
+    display: block;
+    width: 100%;
+}
+
+.deactivateLicense {
+    border: 1px solid #000;
+    border-radius: 10px;
+    z-index: 999;
+}
+
+.deactivateLicense input,
+.deactivateLicense .input-group-text {
+    border-radius: 10px;
+    background: #fff;
+}
+
+.card.discord {
+    background: #E1E1E1;
+    border: 1px solid #000;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.alertBox {
+    background: #FF6464;
+    position: absolute !important;
+    padding: 10px;
+    color: #fff;
+    border-radius: 50px;
+    width: 100%;
+    max-width: fit-content;
+    right: 10%;
+    margin: auto;
+    bottom: 80px;
+}
+
+img.AlpineLicenseLogo {
+    position: absolute;
+    top: -65px;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.TopNav {
+    background: #000;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    display: block;
+}
+
+.TopNav p{
+    color: #fff;
+}
+
+section.activatedPage {
+    height: 90vh;
+}
+
+.li {
+    float: left;
+    width: 100%;
+    padding: 2px;
+    margin: auto;
+    height: auto;
+    color: #fff;
+}
+
+.backButton {
+    z-index: 999;
+    position: absolute;
+    top: -130px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    font-size: 2rem;
+}
+
+.backButton i:hover {
+    cursor: pointer;
+}
+
+a.saveAlpine {
+    background: #84FF90;
+    width: 100%;
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    padding: 8px;
+    border-radius: 20px;
+    box-shadow: 0 0rem 2rem rgba(132, 255, 144,.5)!important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.form-control{
+    padding: 10px !important;
+    border-radius: 20px;
+    background: #fafafa !important;
+}
+
+.input-group-text{
+    border-radius: 20px;
+}
+
+.input-group.date.startDate input::placeholder {
+    color: #000 !important;
+    font-weight: 600 !important;
+    background: #fafafa !important;
+}
+
+input#start {
+    width: 100% !important;
+    max-width: 140px !important;
+}
+
+@media screen and (max-width: 1024px) {
+    .vertical-center {
+        width: 100% !important;
+    }
+}
+@media screen and (max-width: 991px) {
+    nav.navbar {
+        background-color: rgba(255, 255, 255, 0.7) !important;
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(10px);
+        transition: 1s;
+        top: 0;
+    }
+    .headerBtn li {
+        width: 100%;
+    }
+    html,
+    body {
+        overflow-x: hidden !important;
+    }
+    section.activatedPage {
+        height: 100%;
+    }
+    .vertical-center {
+        width: 80%;
+    }
+    .TopNav{
+        display: none;
+    }
+    .onlyForDestop {
+        display: none;
+    }
+}
+
+@media screen and (min-device-width: 992px) and (max-device-width: 1399px)  {
+    .purchaseAlpine{
+        padding: 10px 10px !important;
+        font-size: 0.7rem !important;
+    }
+    html,
+    body {
+        overflow-x: hidden !important;
+    }
+}
+
+.startDate,
+.startDate::-ms-input-placeholder{
+    font-weight: 600 !important;
+    color:#808080 !important;
+}
+
+.startDate,
+.startDate::-webkit-input-placeholder {
+    font-weight: 600 !important;
+    color:#808080 !important;
+}
+.startDate,
+.startDate::-moz-placeholder {
+    font-weight: 600 !important;
+    color:#808080 !important;
+}
+.startDate,
+.startDate::-ms-input-placeholder {
+    font-weight: 600 !important;
+    color:#808080 !important;
+}
+.startDate::-webkit-inner-spin-button,
+.startDate::-webkit-calendar-picker-indicator {
+    opacity:0;
+    
+    -webkit-appearance: none;
+}
+.startDate::focus{
+    color:#000;
+}
+.startDate::-webkit-calendar-picker-indicator{
+    background: transparent;
+    bottom: 0;
+    color: transparent;
+    cursor: pointer;
+    height: auto;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: auto;
+}
+.startDate::before{
+    content:'';
+}
+.startDate{
+    color:#000 !important;
+}
+
+
