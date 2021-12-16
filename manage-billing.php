@@ -9,10 +9,10 @@
     <?php include 'commonFiles/header.php'; ?>
     <main>
         <section class="logInPage">
-            <div class="vertical-center">
+            <div class="vertical-center mt-5">
                 <div class="col-lg-6 m-auto text-center position-relative">
                     <form action="">
-                            <div class="backButton">
+                            <div class="backButton mb-5">
                                 <i onclick="history.back()" class="fas fa-long-arrow-alt-left"></i>
                             </div>
                         <div class="card form shadow">
